@@ -1,0 +1,9 @@
+notes for trouble shooting
+
+12/5
+have trouble using the camera to get real-time diagrams on the LCD screen
+(fixed at 9:16pm 12/5)
+
+Current Problems:
+1. define a step
+2. how to choose fixed points and track them for indoor tracking
