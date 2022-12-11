@@ -16,3 +16,15 @@ Also, following Dalton's advice, we are working on finding a few fixed reference
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20counter%20demo.gif" width="600">  
 </div>
+
+#### Moving state
+
+<div align=center>
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20state.png" width="450">  
+</div>
+
+#### Stopping state
+
+<div align=center>
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/stopping%20state.png" width="450">  
+</div>
