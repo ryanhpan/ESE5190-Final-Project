@@ -20,11 +20,11 @@ Also, following Dalton's advice, we are working on finding a few fixed reference
 #### Moving state
 
 <div align=center>
-<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20state.png" width="450">  
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20state.png" width="600">  
 </div>
 
 #### Stopping state
 
 <div align=center>
-<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/stopping%20state.png" width="450">  
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/stopping%20state.png" width="600">  
 </div>
