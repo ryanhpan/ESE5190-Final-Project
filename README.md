@@ -14,7 +14,7 @@ Also, following Dalton's advice, we are working on finding a few fixed reference
 ### Demo
 
 <div align=center>
-<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20counter%20demo.gif" width="600">  
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20counter%20demo.gif" width="700">  
 </div>
 
 #### Moving state
