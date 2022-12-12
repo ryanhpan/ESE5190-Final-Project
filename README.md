@@ -11,6 +11,12 @@ University of Pennsylvania, ESE 5190 Final Project: Step Counter
 We found the code for Magic Wand and made some modifications based on it. We are now able to successfully read the IMU reading and get it to display on our serial port. The next thing we need to do is to get it to display on our screen.
 Also, following Dalton's advice, we are working on finding a few fixed reference points based on the camera module, which is what we will be working on next. The code is [here](https://github.com/ryanhpan/ESE5190-Final-Project/tree/main/code/in-progress).
 
+### Pico4ml_Board
+
+<div align=center>
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/media/materials/arducam-pico4ml-tinyml-dev-kit.webp" width="700">  
+</div>
+
 ### Demo
 
 <div align=center>
