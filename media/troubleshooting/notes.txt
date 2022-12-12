@@ -1,5 +1,5 @@
 Notes for trouble shooting
-Team Walkman
+Team Walkman🚶‍♂️
 
 11/14
 Pico4ml Environment Setup (Done)
