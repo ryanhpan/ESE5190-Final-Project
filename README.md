@@ -34,3 +34,9 @@ Also, following Dalton's advice, we are working on finding a few fixed reference
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/stopping%20state.png" width="800">  
 </div>
+
+# Diagram
+
+<div align=center>
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/media/design/block_diagram.png" width="800">  
+</div>
