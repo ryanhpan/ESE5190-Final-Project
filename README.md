@@ -1,6 +1,6 @@
 University of Pennsylvania, ESE 5190 Final Project: Step Counter
 
-    Team: Walkman🚶‍♂️
+    Team Walkman🚶‍♂️
     Group Members: Pan hao, Lihong Zhao and Xingjian Chen
     Tested on: 1. Lenovo Legion 5 Pro 16" Laptop, Intel Core i7-12700H， Windows11 
                2. MacBook Air (M1, 2020), macOS Ventura 13.0
