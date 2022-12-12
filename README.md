@@ -10,3 +10,21 @@ University of Pennsylvania, ESE 5190 Final Project: Step Counter
 
 We found the code for Magic Wand and made some modifications based on it. We are now able to successfully read the IMU reading and get it to display on our serial port. The next thing we need to do is to get it to display on our screen.
 Also, following Dalton's advice, we are working on finding a few fixed reference points based on the camera module, which is what we will be working on next. The code is [here](https://github.com/ryanhpan/ESE5190-Final-Project/tree/main/code/in-progress).
+
+### Demo
+
+<div align=center>
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20counter%20demo.gif" width="700">  
+</div>
+
+#### Moving state
+
+<div align=center>
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20state.png" width="800">  
+</div>
+
+#### Stopping state
+
+<div align=center>
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/stopping%20state.png" width="800">  
+</div>
