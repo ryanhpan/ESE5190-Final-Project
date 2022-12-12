@@ -1,9 +1,16 @@
-notes for trouble shooting
+Notes for trouble shooting
+
+11/24
+Can't get the IMU data from the ICM20948 sensor
+(Fixed on 11/29)
 
 12/5
-have trouble using the camera to get real-time diagrams on the LCD screen
-(fixed at 9:16pm 12/5)
+Have trouble using the camera to get real-time diagrams on the LCD screen.
+(Fixed at 9:16pm 12/5)
+
+12/8
+How to define a "step"
+(Fixed on 12/10)
 
 Current Problems:
-1. define a step
-2. how to choose fixed points and track them for indoor tracking
+2. How to choose fixed points and track them for indoor tracking
