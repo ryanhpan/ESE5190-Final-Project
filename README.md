@@ -10,7 +10,7 @@ University of Pennsylvania, ESE 5190 Final Project: Step Counter
 
 We found the code for Magic Wand and made some modifications based on it. We are now able to successfully read the IMU data from ICM20948 and get it to display on the LCD screen (LCD_st7735) which is used by PIO.
 
-Also, following Dalton's advice, we tried to find a few fixed reference points based on the camera module but we observed that the array read by camera was strange and it was hard to extract the data from it and find a few points as coordinate points. So we gave up the idea. 
+Also, following Dalton's advice, we tried to find a few fixed reference points based on the camera module but we observed that the array read by camera was strange and it was hard to extract the data from it and find a few points as coordinate points. So we gave up that idea. 
 
 The code is [here](https://github.com/ryanhpan/ESE5190-Final-Project/tree/main/code/in-progress).
 
