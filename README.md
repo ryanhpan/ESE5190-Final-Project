@@ -13,9 +13,9 @@ We found the code for Magic Wand and made some modifications based on it. We are
 Also, following Dalton's advice, we are working on finding a few fixed reference points based on the camera module, which is what we will be working on next. The code is [here](https://github.com/ryanhpan/ESE5190-Final-Project/tree/main/code/in-progress).
 
 ## Libraries
-- ICM20948
-- LCD_st7735
-- Arducam_hm01b0
+- [ICM20948](https://github.com/ryanhpan/ESE5190-Final-Project/tree/main/code/libraries/ICM20948)
+- [LCD_st7735](https://github.com/ryanhpan/ESE5190-Final-Project/tree/main/code/libraries/LCD_st7735)
+- [Arducam_hm01b0](https://github.com/ryanhpan/ESE5190-Final-Project/tree/main/code/libraries/Arducam_hm01b0)
 
 # Media
 
