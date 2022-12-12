@@ -8,7 +8,7 @@ University of Pennsylvania, ESE 5190 Final Project: Step Counter
                
 # Proposal
 
-[Proposal link](https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/Proposal%20of%20Steps%20Counter.pptx.pdf)
+- [Proposal Link](https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/Proposal%20of%20Steps%20Counter.pptx.pdf)
 
 # Code
 
