@@ -6,6 +6,10 @@ University of Pennsylvania, ESE 5190 Final Project: Step Counter
                2. MacBook Air (M1, 2020), macOS Ventura 13.0
                3. Lenovo Legion R9000P 2021 15.6"
                
+# Proposal
+
+[Proposal link](https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/Proposal%20of%20Steps%20Counter.pptx.pdf)
+
 # Code
 
 We found the code for Magic Wand and made some modifications based on it. We are now able to successfully read the IMU data from ICM20948 and get it to display on the LCD screen (LCD_st7735) which is used by PIO.
