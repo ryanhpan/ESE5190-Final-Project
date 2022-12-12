@@ -50,7 +50,7 @@ The code is [here](https://github.com/ryanhpan/ESE5190-Final-Project/tree/main/c
 ## Demo
 
 <div align=center>
-<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20counter%20demo.gif" width="700">  
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20counter%20demo.gif" width="600">  
 </div>
 
 ### Moving state
