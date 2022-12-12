@@ -40,3 +40,10 @@ Also, following Dalton's advice, we are working on finding a few fixed reference
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/media/design/block_diagram.png" width="800">  
 </div>
+
+- The IMU module detects the movement of the user and generates the data of acceleration of linear velocity and  angular velocity.
+- The Filter Algorithms remove the high frequency noise from the raw data. 
+- The Data Processor identifies the signal pattern of “walking”.
+- The Program counts the amount of steps in a certain amount of time.
+- LCD Screen shows the amount of steps on the screen.
+
