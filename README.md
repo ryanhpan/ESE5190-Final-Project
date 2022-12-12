@@ -6,30 +6,30 @@ University of Pennsylvania, ESE 5190 Final Project: Step Counter
                2. MacBook Air (M1, 2020), macOS Ventura 13.0
                3. Lenovo Legion R9000P 2021 15.6"
                
-### Code
+# Code
 
 We found the code for Magic Wand and made some modifications based on it. We are now able to successfully read the IMU reading and get it to display on our serial port. The next thing we need to do is to get it to display on our screen.
 Also, following Dalton's advice, we are working on finding a few fixed reference points based on the camera module, which is what we will be working on next. The code is [here](https://github.com/ryanhpan/ESE5190-Final-Project/tree/main/code/in-progress).
 
-### Pico4ml_Board
+# Pico4ml_Board
 
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/media/materials/arducam-pico4ml-tinyml-dev-kit.webp" width="700">  
 </div>
 
-### Demo
+# Demo
 
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20counter%20demo.gif" width="700">  
 </div>
 
-#### Moving state
+## Moving state
 
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20state.png" width="800">  
 </div>
 
-#### Stopping state
+## Stopping state
 
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/stopping%20state.png" width="800">  
