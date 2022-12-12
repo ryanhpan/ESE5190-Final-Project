@@ -2,7 +2,7 @@ Notes for trouble shooting
 Team Walkman
 
 11/14
-Environment Setup (Done)
+Pico4ml Environment Setup (Done)
 
 11/16
 Get IMU raw data from the ICM20948 sensor
