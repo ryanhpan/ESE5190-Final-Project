@@ -37,7 +37,7 @@ Also, following Dalton's advice, we are working on finding a few fixed reference
 
 ### Troubleshooting
 
-[Logs](https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/media/troubleshooting/notes.txt)
+- [Logs](https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/media/troubleshooting/notes.txt)
 
 ## Demo
 
