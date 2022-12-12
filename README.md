@@ -11,31 +11,19 @@ University of Pennsylvania, ESE 5190 Final Project: Step Counter
 We found the code for Magic Wand and made some modifications based on it. We are now able to successfully read the IMU reading and get it to display on our serial port. The next thing we need to do is to get it to display on our screen.
 Also, following Dalton's advice, we are working on finding a few fixed reference points based on the camera module, which is what we will be working on next. The code is [here](https://github.com/ryanhpan/ESE5190-Final-Project/tree/main/code/in-progress).
 
-# Pico4ml_Board
+# Media
+
+## Materials 
+
+### Pico4ml_Board
 
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/media/materials/arducam-pico4ml-tinyml-dev-kit.webp" width="700">  
 </div>
 
-# Demo
+## Design
 
-<div align=center>
-<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20counter%20demo.gif" width="700">  
-</div>
-
-## Moving state
-
-<div align=center>
-<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20state.png" width="800">  
-</div>
-
-## Stopping state
-
-<div align=center>
-<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/stopping%20state.png" width="800">  
-</div>
-
-# Diagram
+### Block Diagram
 
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/media/design/block_diagram.png" width="800">  
@@ -46,4 +34,31 @@ Also, following Dalton's advice, we are working on finding a few fixed reference
 - The Data Processor identifies the signal pattern of “walking”.
 - The Program counts the amount of steps in a certain amount of time.
 - LCD Screen shows the amount of steps on the screen.
+
+### Troubleshooting
+
+[Logs](https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/media/troubleshooting/notes.txt)
+
+## Demo
+
+<div align=center>
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20counter%20demo.gif" width="700">  
+</div>
+
+### Moving state
+
+<div align=center>
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20state.png" width="800">  
+</div>
+
+### Stopping state
+
+<div align=center>
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/stopping%20state.png" width="800">  
+</div>
+
+
+# Diagram
+
+
 
