@@ -46,7 +46,7 @@ uint16_t send_index = 0;
 
 
 
-int step_count=0;
+int moving_count;
 
 
 
@@ -145,7 +145,6 @@ void setup() {
 
 #if SCREEN
   ST7735_Init();
-  ST7735_DrawImage(0, 0, 80, 160, arducam_logo);
 #endif
   // Start serial
   setup_uart();
@@ -210,11 +209,11 @@ void setup() {
   }
 #if SCREEN
   ST7735_FillScreen(ST7735_GREEN);
-  ST7735_DrawImage(0, 0, 80, 40, (uint8_t *)IMU_ICM20948);
+  // ST7735_DrawImage(0, 0, 80, 40, (uint8_t *)IMU_ICM20948);
 
-  ST7735_WriteString(5, 45, "Moving", Font_11x18, ST7735_BLACK, ST7735_GREEN);
-  ST7735_WriteString(0, 70, "Counter", Font_11x18, ST7735_BLACK, ST7735_GREEN);
-  
+  // ST7735_WriteString(5, 45, "Moving", Font_11x18, ST7735_BLACK, ST7735_GREEN);
+  // ST7735_WriteString(0, 70, "Counter", Font_11x18, ST7735_BLACK, ST7735_GREEN);
+
 #endif
   gpio_put(25, !gpio_get(25));
 }
@@ -244,7 +243,7 @@ void loop() {
 #if 1
     if (linked) {
       if (first) {
-        //        sleep_ms(5000);
+        //sleep_ms(5000);
         first = false;
       }
       if (send_index++ % 16 == 0) {
@@ -272,27 +271,44 @@ void loop() {
 
 bool moving_state=0;
 int current_state_x=0;
-
-  for (int i = 0; i < gyroscope_samples_read; ++i) {
-       current_state_x = (gyroscope_samples_read - (i + 1));
-       moving_state   = IsMoving(current_state_x);
-    
-
-  if (moving_state == 1 or (done_just_triggered and !linked))
-  {
-    step_count++;
-    printf("Moving, step count: %d\n",step_count);
-    sleep_ms(5);
-  }
-  else
-  {
-    printf("Stopping, step count: %d\n",step_count);
-    sleep_ms(5);
-  }
-
-  }
+int step_count;
+int threshold;
 
 
+for (int i = 0; i < gyroscope_samples_read; ++i) {
+  current_state_x = (gyroscope_samples_read - (i + 1));
+  moving_state   = IsMoving(current_state_x);
+
+  
+    if (moving_state == 1 or (done_just_triggered and !linked)) {
+      moving_count++;
+      step_count = moving_count / 125;
+      printf("Moving, step count: %d\n",step_count);
+      #if SCREEN
+        char str[10];
+        sprintf(str, "%d", step_count);
+        //ST7735_WriteString(5, 45, "Moving!", Font_11x18, ST7735_BLACK, ST7735_GREEN);
+        ST7735_WriteString(0, 70, "Step", Font_11x18, ST7735_BLACK, ST7735_GREEN);
+        ST7735_WriteString(0, 95, "Count:", Font_11x18, ST7735_BLACK, ST7735_GREEN);
+        ST7735_WriteString(10, 120, str, Font_11x18, ST7735_BLACK, ST7735_GREEN);
+      #endif
+      sleep_ms(5);
+      } 
+    else {
+      step_count = moving_count / 125;
+      printf("Stopping, step count: %d\n",step_count);
+      #if SCREEN
+      char str[10];
+      sprintf(str, "%d", step_count);
+      //ST7735_WriteString(5, 45, "Stopping!", Font_11x18, ST7735_BLACK, ST7735_GREEN);
+      ST7735_WriteString(0, 70, "Step", Font_11x18, ST7735_BLACK, ST7735_GREEN);
+      ST7735_WriteString(0, 95, "Count:", Font_11x18, ST7735_BLACK, ST7735_GREEN);
+      ST7735_WriteString(10, 120, str, Font_11x18, ST7735_BLACK, ST7735_GREEN);
+      #endif
+      sleep_ms(5);
+    }
+      
+}
 
 
 
