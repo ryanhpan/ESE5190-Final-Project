@@ -53,22 +53,27 @@ The code is [here](https://github.com/ryanhpan/ESE5190-Final-Project/tree/main/c
 
 ## Demo
 
+### Midpoint
+
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20counter%20demo.gif" width="600">  
 </div>
 
-### Moving state
+#### Moving state
 
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20state.png" width="800">  
 </div>
 
-### Stopping state
+#### Stopping state
 
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/stopping%20state.png" width="800">  
 </div>
 
+### Final Project Demo
+
+[![Demo_Step-Counter](https://res.cloudinary.com/marcomontalbano/image/upload/v1672286692/video_to_markdown/images/youtube--YtTOuhUdWrI-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/YtTOuhUdWrI "Demo_Step-Counter")
 
 # Diagram
 
