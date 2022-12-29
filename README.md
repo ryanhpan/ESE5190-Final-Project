@@ -8,6 +8,8 @@ University of Pennsylvania, ESE 5190 Final Project: Step Counter
                
 # Proposal
 
+We combine the IMU and LCD screen in Pico4ml to build a simple step counter.
+
 - [Proposal slides](https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/Proposal%20of%20Steps%20Counter.pptx.pdf)
 
 # Code
