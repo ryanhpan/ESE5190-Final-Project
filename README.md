@@ -14,7 +14,7 @@ We combine the IMU and LCD screen in Pico4ml to build a simple step counter.
 
 - [Proposal slides](https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/Proposal%20of%20Steps%20Counter.pptx.pdf)
 
->>>>>>> c5895e5b014340e20383e9dc4f31ddc72c364c89
+
 # Code
 
 We found the code for Magic Wand and made some modifications based on it. We are now able to successfully read the IMU data from ICM20948 and get it to display on the LCD screen (LCD_st7735) which is used by PIO.
