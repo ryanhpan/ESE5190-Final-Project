@@ -1,15 +1,11 @@
 University of Pennsylvania, ESE 5190 Final Project: Step Counter
 
-    Team Walkman🚶‍♂️
+    Team: Walkman🚶‍♂️
     Group Members: Pan hao, Lihong Zhao and Xingjian Chen
     Tested on: 1. Lenovo Legion 5 Pro 16" Laptop, Intel Core i7-12700H， Windows11 
                2. MacBook Air (M1, 2020), macOS Ventura 13.0
                3. Lenovo Legion R9000P 2021 15.6"
                
-# Proposal
-
-- [Proposal slides](https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/Proposal%20of%20Steps%20Counter.pptx.pdf)
-
 # Code
 
 We found the code for Magic Wand and made some modifications based on it. We are now able to successfully read the IMU data from ICM20948 and get it to display on the LCD screen (LCD_st7735) which is used by PIO.
@@ -54,7 +50,7 @@ The code is [here](https://github.com/ryanhpan/ESE5190-Final-Project/tree/main/c
 ## Demo
 
 <div align=center>
-<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20counter%20demo.gif" width="600">  
+<img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20counter%20demo.gif" width="700">  
 </div>
 
 ### Moving state
