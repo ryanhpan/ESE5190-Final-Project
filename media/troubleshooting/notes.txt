@@ -12,5 +12,10 @@ Have trouble using the camera to get real-time diagrams on the LCD screen.
 How to define a "step"
 (Fixed on 12/10)
 
+<<<<<<< HEAD
 Current Problems:
 2. How to choose fixed points and track them for indoor tracking
+=======
+12/12
+Optimization of counter algorithm
+>>>>>>> c5895e5b014340e20383e9dc4f31ddc72c364c89

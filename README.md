@@ -6,6 +6,15 @@ University of Pennsylvania, ESE 5190 Final Project: Step Counter
                2. MacBook Air (M1, 2020), macOS Ventura 13.0
                3. Lenovo Legion R9000P 2021 15.6"
                
+<<<<<<< HEAD
+=======
+# Proposal
+
+We combine the IMU and LCD screen in Pico4ml to build a simple step counter.
+
+- [Proposal slides](https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/Proposal%20of%20Steps%20Counter.pptx.pdf)
+
+>>>>>>> c5895e5b014340e20383e9dc4f31ddc72c364c89
 # Code
 
 We found the code for Magic Wand and made some modifications based on it. We are now able to successfully read the IMU data from ICM20948 and get it to display on the LCD screen (LCD_st7735) which is used by PIO.
@@ -49,24 +58,24 @@ The code is [here](https://github.com/ryanhpan/ESE5190-Final-Project/tree/main/c
 
 ## Demo
 
+### Midpoint
+
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20counter%20demo.gif" width="700">  
 </div>
 
-### Moving state
+#### Moving state
 
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/moving%20state.png" width="800">  
 </div>
 
-### Stopping state
+#### Stopping state
 
 <div align=center>
 <img src="https://github.com/ryanhpan/ESE5190-Final-Project/blob/main/diagram/stopping%20state.png" width="800">  
 </div>
 
-
-# Diagram
 
 
 
