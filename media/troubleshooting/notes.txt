@@ -32,6 +32,5 @@ Have trouble using the camera to get real-time diagrams on the LCD screen.
 How to define a "step" & Basic counter setup
 (Completed on 12/10)
 
-Current Problems:
-How to choose fixed points and track them for indoor tracking?
+12/12
 Optimization of counter algorithm
